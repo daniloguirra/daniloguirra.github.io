@@ -14,19 +14,11 @@
         <link rel="stylesheet" href="css/components/action.css">
         <link rel="stylesheet" href="css/components/logo.css">
         <link rel="stylesheet" href="css/components/box.css">
-        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
-        <link rel="stylesheet" href="css/components/skills.css">
-        <link rel="stylesheet" href="css/components/sub-skills.css">
-        <link rel="stylesheet" href="css/components/skill-letras.css">
-        <link rel="stylesheet" href="css/components/skill-html.css">
-        <link rel="stylesheet" href="css/components/skill-css.css">
-        <link rel="stylesheet" href="css/components/skill-python.css">
-        <link rel="stylesheet" href="css/components/skill-django.css">
-        <link rel="stylesheet" href="css/components/skill-sql.css">
-        <link rel="stylesheet" href="css/components/skill-javascript.css">
-        <link rel="stylesheet" href="css/components/skill-nodejs.css">
-        <link rel="stylesheet" href="css/components/skill-react.css">
+        <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/skill-tec.css">
+        <link rel="stylesheet" href="css/components/progress-bar.css">
        
     </head>
     <body>
@@ -42,7 +34,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box"> 
-                    <h1 class="title">Danilo Guirra</h1>
+                    <h1 class="main-title">Danilo Guirra</h1>
                     <h2 class="subtitle">Full Stack Developer</h2>
                 </div>
                 <div class="navigation">
@@ -52,19 +44,17 @@
             </div>
         </section>
         
-        <section class="skill">
-            <h1 class="sub-skills">Skills</h1>
-
-            <dl> <!-- description List -->
-                <dt>HTML</dt>
-                <dd>
-                    <img src="img/ico_html5.png" all="Logo HTML5 em pixel art">
-                </dd>
-                <dd>
-                    <progress max="100" value="70">70%</progress>
-                </dd>
-
-            </dl>
+        <section class="section">
+            <h1 class="main-title -second">Skills</h1>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_html5.png" all="Logo HTML5 em pixel art">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
         </section>
     </body>
 </html>
