@@ -6,6 +6,12 @@
     margin-right: auto;
 }
 
+.wrapper-skill.-second{
+    justify-content: space-between;
+    padding-left: none;
+    padding-right: none;
+}
+
 .wrapper-skill .skill-tec{
     width: 430px;
     margin-bottom: 40px;
@@ -19,3 +25,4 @@
 .wrapper-skill .progress-bar{
     width: 320px;
 }
+

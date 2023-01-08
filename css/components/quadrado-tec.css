@@ -1,0 +1,27 @@
+.quadrado-tec{
+    display: flex;
+    background-color: #7C5E99;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #FFFFFF;
+    align-items: center;
+
+}
+
+.quadrado-tec.-fired{
+    padding-left: none;
+}
+
+.quadrado-tec.-collab{
+    background-color: #4C5B84;
+ 
+}
+
+.quadrado-tec.-collabpython{
+    background-color: #F25A70;
+}
+
+
+.quadrado-tec .icon{
+    margin-left: 27px;
+}
