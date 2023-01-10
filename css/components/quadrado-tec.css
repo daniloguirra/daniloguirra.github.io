@@ -1,5 +1,6 @@
 .quadrado-tec{
     display: flex;
+    justify-content: center;
     background-color: #7C5E99;
     width: 280px;
     height: 280px;
@@ -9,7 +10,7 @@
 }
 
 .quadrado-tec.-fired{
-    padding-left: none;
+    margin-left: -100px;
 }
 
 .quadrado-tec.-collab{
@@ -19,9 +20,10 @@
 
 .quadrado-tec.-collabpython{
     background-color: #F25A70;
+    margin-right: -100px;
 }
 
 
 .quadrado-tec .icon{
-    margin-left: 27px;
+    align-items: center;
 }
