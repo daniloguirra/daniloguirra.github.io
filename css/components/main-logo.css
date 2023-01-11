@@ -1,4 +1,4 @@
-.logodan{
+.main-logodan{
     display: flex;
     color: #FFF;
     font-size: 13px;
@@ -10,7 +10,7 @@
 }
 
 
-.logodan:before{
+.main-logodan:before{
     font-size: 10px;
     content: "<";
     color: #00F;
@@ -20,7 +20,7 @@
 
 }
 
-.logodan:after{
+.main-logodan:after{
     font-size: 10px;
     content: "/>";
     color: #00F;
