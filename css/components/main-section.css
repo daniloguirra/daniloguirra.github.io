@@ -12,6 +12,12 @@
 
 .main-section.-second{
     background-color: #000;
-    height: 530px;
-    border-bottom: 10px solid #7C5E99;
+    height: 520px;
+    border-bottom: 10px solid #1E5CFF;
+}
+
+.main-section.-third{
+    background-color: #7C5E99;
+    height: 783px;
+    border-bottom: 10px solid #000;
 }
