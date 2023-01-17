@@ -1,0 +1,6 @@
+.wrapper-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 215px;
+}

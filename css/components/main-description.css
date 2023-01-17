@@ -1,0 +1,13 @@
+.main-description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 312px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    margin-left: 60px;
+    margin-right: 0px;
+}
