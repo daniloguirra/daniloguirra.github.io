@@ -6,13 +6,22 @@
     cursor: pointer;
 }
 
+.button-arrow .content{
+    display: none;
+}
+
 .button-arrow::before{
     content: '';
     display: block;
     box-sizing: border-box;
-    width: 15px;
-    height: 15px;
-    border: 15px solid transparent;
+    width: 18px;
+    height: 18px;
+    border: 18px solid transparent;
     border-left: 28px solid white;
+    transform: translateX(5px);
+}
+
+.button-arrow.-left::before{
+    transform: rotate(180deg) translateX(13px);
 }
 
