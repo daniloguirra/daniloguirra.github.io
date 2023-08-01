@@ -6,7 +6,7 @@
 }
 
 .node-card::before{
-    content:'a';
+    content:'aaa';
 }
 
 .node-card .title{
@@ -27,3 +27,4 @@
     background-color: #CEB02A;
 
 }
+
